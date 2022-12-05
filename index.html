@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="section1">
+        <input type="text" class="cell" id="one" onclick="funcOne(); check()" />
+        <input type="text" class="cell" id="two" onclick="funcTwo(); check()" />
+        <input
+          type="text"
+          class="cell"
+          id="three"
+          onclick="funcThree(); check()"
+        />
+      </div>
+      <div class="section2">
+        <input
+          type="text"
+          class="cell"
+          id="four"
+          onclick="funcFour(); check()"
+        />
+        <input
+          type="text"
+          class="cell"
+          id="five"
+          onclick="funcFive(); check()"
+        />
+        <input type="text" class="cell" id="six" onclick="funcSix(); check()" />
+      </div>
+      <div class="section3">
+        <input
+          type="text"
+          class="cell"
+          id="seven"
+          onclick="funcSeven(); check()"
+        />
+        <input
+          type="text"
+          class="cell"
+          id="eight"
+          onclick="funcEight(); check()"
+        />
+        <input
+          type="text"
+          class="cell"
+          id="nine"
+          onclick="funcNine(); check()"
+        />
+      </div>
+      <button class="btn" onclick="resetAll()">Reset</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

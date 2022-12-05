@@ -1,0 +1,43 @@
+body {
+  margin: 0 auto;
+  width: 30%;
+}
+.main {
+  margin-top: 200px;
+}
+.section1 {
+  display: flex;
+  gap: 10px;
+}
+.section2 {
+  display: flex;
+  gap: 10px;
+}
+.section3 {
+  display: flex;
+  gap: 10px;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin: 10px;
+  background-color: #b2beb5;
+  cursor: pointer;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+.btn {
+  width: 80px;
+  padding: 15px 15px;
+  background-color: #b2beb5;
+  margin-left: 80px;
+  text-align: center;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: aqua;
+  color: #ffffff;
+}
